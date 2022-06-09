@@ -1,0 +1,83 @@
+.content {
+    background-image: url(background4.png);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.top-text {
+    background-color: rgba(0, 255, 255, 0.342);
+    color: rgb(250, 11, 161);
+    padding: 80px 0;
+}
+
+.text {
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.img {
+    width: 100%;
+}
+
+.vidstypy {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-shadow {
+    box-shadow: 0px 0px 10px rgb(250, 11, 161);
+}
+
+.ifr1 {
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgb(250, 11, 161);
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.anim-hide-left {
+    transform: translateX(-150%);
+    transition: 2s;
+}
+
+.anim-show-left {
+    transform: translateX(0);
+}
+
+.anim-hide-right {
+    transform: translateX(150%);
+    transition: 2s;
+}
+
+.anim-show-right {
+    transform: translateX(0);
+}
+
+footer {
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 1.5s;
+}
+
+footer a:hover {
+    color: rgb(250, 11, 161);
+}
+
+.rty {
+    color: rgb(250, 11, 11);
+    font-size: 1.5rem;
+}
